@@ -1,0 +1,33 @@
+export const TRACK_BASE_PRICE: Record<string, number> = {
+  MUGELLO: 238,
+  IMOLA: 238,
+  PERGUSA: 188,
+  MAGIONE: 136,
+  TAZIO: 136,
+  MORES: 136,
+  BINETTO: 125,
+  AGRIGENTO: 125,
+  POMPOSA: 102,
+  ORTONA: 102,
+  AIROLA: 102,
+  LECCE: 102,
+  LIMATOLA: 93,
+};
+
+export const TRACK_GUEST_PRICE: Record<string, number> = {
+  MUGELLO: 30,
+  IMOLA: 30,
+  PERGUSA: 25,
+  MAGIONE: 20,
+  TAZIO: 20,
+  MORES: 20,
+  BINETTO: 20,
+  AGRIGENTO: 20,
+  POMPOSA: 15,
+  ORTONA: 15,
+  AIROLA: 15,
+  LECCE: 15,
+  LIMATOLA: 10,
+};
+
+export const TRACK_NAMES = Object.keys(TRACK_BASE_PRICE);
